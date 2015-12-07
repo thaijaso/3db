@@ -131,7 +131,7 @@ $(document).ready(function () {
       html += '</p>';
       element.innerHTML = html;
   }
-  twitterFetcher.fetch(config);
+  //twitterFetcher.fetch(config);
 
 
   /* ========================================================================
