@@ -654,11 +654,13 @@ header .logo-container {
 .case-study-left .overlay {
   padding-left: 200px;
   padding-right: 50px;
+  background: url(../assets/slider-overlay.png) repeat;
   transition: background .5s;
 }
 .case-study-right .overlay {
   padding-right: 200px;
   padding-left: 50px;
+  background: url(../assets/slider-overlay.png) repeat;
   transition: background .5s;
 }
 .case-study .case-study-left {
@@ -671,7 +673,7 @@ header .logo-container {
 }
 .case-study .overlay:hover {
   width: 100%;
-  background: rgba(231, 76, 60, 0.9);
+  background: rgba(53, 222, 161, 0.9);
 }
 .case-study h3 {
   text-shadow: 1px 1px 1px #444;
@@ -830,14 +832,14 @@ header .logo-container {
 .our-team .team-overlay .info {
   height: 240px;
   padding: 100px 20px 20px 20px;
-  background: rgba(231, 76, 60, 0.9);
+  background: rgba(53, 222, 161, 0.9);
 }
 .our-team .team-overlay .learn-more {
   height: 60px;
   line-height: 60px;
   width: 100%;
   text-align: center;
-  background: #c0392b;
+  background: #35dea1;
   position: relative;
   cursor: pointer;
 }
@@ -989,7 +991,7 @@ header .logo-container {
   display: inline-block;
 }
 .promote .deep {
-  background: #c0392b;
+  background: #2AB381;
 }
 /* ========================================================================
   2.12 Component: We are hiring
