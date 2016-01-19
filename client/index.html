@@ -75,47 +75,8 @@
     </script>
 </head>
 <body>
-    <!--[if lt IE 8]>
-        <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
-    <![endif]-->
+   
 
-    <!-- =========================
-       Fullscreen menu
-    ============================== -->
-    <div class="mobilenav">
-        <ul>
-            <li data-rel="#header">
-                <span class="nav-label">Home</span>
-            </li>
-            <li data-rel="#about-us">
-                <span class="nav-label">About Us</span>
-            </li>
-            <li data-rel="#why-choose-us">
-                <span class="nav-label">Why Choose Us</span>
-            </li>
-            <li data-rel="#our-team">
-                <span class="nav-label">Our Team</span>
-            </li>
-            <li data-rel="#testimonial">
-                <span class="nav-label">Testimonial</span>
-            </li>
-            <li data-rel="#portfolio">
-                <span class="nav-label">Portfolio</span>
-            </li>
-            <li data-rel="#map">
-                <span class="nav-label">Contact Us</span>
-            </li>
-        </ul>
-    </div>  <!-- *** end Full Screen Menu *** -->
-
-    <!-- *****  hamburger icon ***** -->
-    <a href="javascript:void(0)" class="menu-trigger">
-       <div class="hamburger">
-         <div class="menui top-menu"></div>
-         <div class="menui mid-menu"></div>
-         <div class="menui bottom-menu"></div>
-       </div>
-    </a>
 
 
     <!-- =========================
@@ -914,15 +875,14 @@
                 <div class="col-lg-4 col-lg-offset-1 col-md-5 col-sm-4 text-center">
                     <p class="light-text">You dream it. We build it.</p>
                 </div>
-                <div class="col-lg-6 col-lg-offset-1 col-md-7 col-sm-8 button-container">
-                    <a href="#" class="button deep hvr-grow">Request a Quote</a>
-                    <span class="margin-right-small margin-left-small">or</span>
-                    <a href="#" class="button light hvr-grow">Hire Us</a>
+                <div class="col-lg-6 col-lg-offset-1 col-md-7 col-sm-8 button-container" data-toggle="modal" data-target="#contact-form">
+                    <a href="/estimate" class="button deep hvr-grow">Request a Quote</a>
+                    <!-- <span class="margin-right-small margin-left-small">or</span>
+                    <a href="#" class="button light hvr-grow">Hire Us</a> -->
                 </div>
             </div>
         </div>
     </section> <!-- *** end promote *** -->
-
 
     <!-- =========================
        Portfolio
@@ -1118,14 +1078,7 @@
                         </div>
                         <div class="clearfix"></div>
                     </div>
-                    <p class="margin-top-medium">
-                        The 3 Dream Builders, Inc. continued growth and success is our testament to the service and quality 
-                        we deliver, every time. Let us turn your ordinary place into your favorite space.
-                        We have offered homeowners the highest quality materials for their kitchen, 
-                        laundry, bath, and office projects. We proudly fabricate and install natural stone countertops, 
-                        tile setting on floors, walls and surrounds, custom cabinetry and painting. We are your main source 
-                        for the most innovative surfaces, natural stones and sustainable material, at a great price.
-                    </p>
+                    <p class="margin-top-medium">The 3 Dream Builders continuous growth and success is our testament to the service and quality we consistently deliver. Let us turn your ordinary place into your favorite space. We have offered homeowners the highest quality materials for their indoor and outdoor home and office paint projects. We look forward to continued business with our past clients, as well as future business with you!</p>
                 </div>
                 <div class="col-md-5 col-sm-6 wow fadeInUp">
                     <div class="upload-cv text-center">
@@ -1193,7 +1146,7 @@
                     <div class="modal-body">
 
                         <!-- *****  Contact form ***** -->
-                        <form class="form" id="contact-form">
+                        <form class="form" id="contact-form" action="#" method="post">
                             <div class="row">
                                 <div class="form-group col-md-6">
                                     <input type="text" class="form-control" id="first-name" placeholder="First name">
