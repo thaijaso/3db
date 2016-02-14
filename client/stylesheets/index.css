@@ -832,7 +832,7 @@ header .logo-container {
 .our-team .team-overlay .info {
   height: 240px;
   padding: 100px 20px 20px 20px;
-  background: rgba(53, 222, 161, 0.9);
+  background: rgba(121, 255, 77, 0.9);
 }
 .our-team .team-overlay .learn-more {
   height: 60px;
@@ -991,7 +991,7 @@ header .logo-container {
   display: inline-block;
 }
 .promote .deep {
-  background: #2AB381;
+  background: #57EA56;
 }
 /* ========================================================================
   2.12 Component: We are hiring
@@ -1147,7 +1147,7 @@ header .logo-container {
   2.16 Component: Footer
  ========================================================================== */
 .footer p {
-  color: #bababa;
+  color: #333;
   font-size: 16px;
 }
 .footer li {
@@ -1171,28 +1171,28 @@ header .logo-container {
   font-size: 22px;
   transition: all .4s;
 }
-.footer .facebook:hover {
+.footer .facebook {
   border-color: #3b5998;
 }
-.footer .facebook:hover > a i {
+.footer .facebook > a i {
   color: #3b5998;
 }
-.footer .twitter:hover {
+.footer .twitter {
   border-color: #00aced;
 }
-.footer .twitter:hover > a i {
+.footer .twitter > a i {
   color: #00aced;
 }
-.footer .g-plus:hover {
+.footer .g-plus {
   border-color: #dd4b39;
 }
-.footer .g-plus:hover > a i {
+.footer .g-plus > a i {
   color: #dd4b39;
 }
-.footer .linkedin:hover {
+.footer .linkedin {
   border-color: #007bb6;
 }
-.footer .linkedin:hover > a i {
+.footer .linkedin > a i {
   color: #007bb6;
 }
 .footer .youtube:hover {
@@ -1201,10 +1201,10 @@ header .logo-container {
 .footer .youtube:hover > a i {
   color: #bb0000;
 }
-.footer .instagram:hover {
+.footer .instagram {
   border-color: #517fa4;
 }
-.footer .instagram:hover > a i {
+.footer .instagram > a i {
   color: #517fa4;
 }
 .footer .behance:hover {
