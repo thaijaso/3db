@@ -5,6 +5,7 @@
     "body-parser": "^1.14.1",
     "express": "^4.13.3",
     "mustache": "^2.2.1",
+    "nodemailer": "^0.7.1",
     "path": "^0.12.7"
   }
 }
