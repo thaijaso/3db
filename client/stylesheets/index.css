@@ -418,7 +418,7 @@ h6 {
   left: 0;
   right: 0;
   bottom: 0;
-  background: rgba(53, 222, 161, 0.9);
+  background: rgba(87, 234, 86, 0.9);
   -webkit-transform: scale(0);
   transform: scale(0);
   -webkit-transition-property: transform;
@@ -673,7 +673,7 @@ header .logo-container {
 }
 .case-study .overlay:hover {
   width: 100%;
-  background: rgba(53, 222, 161, 0.9);
+  background: rgba(87, 234, 86, 0.9);
 }
 .case-study h3 {
   text-shadow: 1px 1px 1px #444;
