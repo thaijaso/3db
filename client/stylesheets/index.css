@@ -570,7 +570,7 @@ header .active {
 }
 header .logo-container {
   color: #000;
-  width: 101%;
+  width: 102%;
   position: absolute;
   z-index: 10;
   background-color: #FFF;
@@ -583,7 +583,7 @@ header .logo-container {
 }
 
 .small-text {
-  font-size: 14px;
+  font-size: 10px;
   
 }
 
@@ -628,7 +628,7 @@ header .logo-container {
   line-height: 24px;
 }
 .about-us img {
-  margin-top: -50px;
+  margin-top: 0px;
 }
 .panel {
   background: none;

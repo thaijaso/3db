@@ -7,7 +7,7 @@
     right: 80px;
   }
   header .logo-container {
-    left: 71px;
+    /*left: 71px;*/
   }
   .processes .icon-container {
     margin-right: 15px;
@@ -36,13 +36,18 @@
     right: 65px;
   }
   header .logo-container {
-    left: 55px;
+    /*left: 55px;*/
+
   }
   .about-us img {
     margin-top: 50px;
   }
   .process-interactive {
     margin-bottom: 90px;
+  }
+
+  .hide-image {
+    display: none;
   }
 }
 /*Tablet Pottrait size to standerd 960 (devices and browsers) */
