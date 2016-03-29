@@ -569,10 +569,31 @@ header .active {
   font-size: 60px !important;
 }
 header .logo-container {
+  color: #000;
+  width: 101%;
   position: absolute;
-  top: 52px;
-  left: 93px;
   z-index: 10;
+  background-color: #FFF;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.business-info {
+  padding-top: 20px;
+}
+
+.small-text {
+  font-size: 14px;
+  
+}
+
+.mainheading {
+  font-weight: bold;
+  margin-top: 7px;
+}
+
+.subheading {
+  margin-top: -11px;
 }
 /* ========================================================================
   2.2 Component: Call To ACTION
