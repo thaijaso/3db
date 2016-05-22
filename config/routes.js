@@ -5,6 +5,10 @@ module.exports = function(app) {
 		res.render('index');
 	});
 
+	app.get('/robots.txt', function(req, res) {
+		res.render('robots.txt');
+	});
+
 	app.get('/estimate', function(req, res) {
 		res.render('estimate.html');
 	});
