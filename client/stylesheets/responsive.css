@@ -15,7 +15,7 @@
 }
 @media only screen and (max-width: 1024px) {
   .button {
-    padding: 20px 45px;
+    padding: 18px 40px;
   }
   .button.light {
     padding: 18px 40px;
@@ -37,7 +37,6 @@
   }
   header .logo-container {
     /*left: 55px;*/
-
   }
   .about-us img {
     margin-top: 50px;
@@ -68,7 +67,7 @@
     /*left: 35px;*/
     background-color: inherit;
     color: #FFF;
-    left: 23%;
+    left: 26%;
   }
   .call-button .button {
     float: none !important;
@@ -128,8 +127,8 @@
     top: 20px;
   }
   header .logo-container {
-    left: 18%;
-    /*top: 33px;*/
+    left: 20%;
+    top: 0px;
   }
   .carousel-indicators li {
     width: 30px;
