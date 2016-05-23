@@ -9,6 +9,10 @@ module.exports = function(app) {
 		res.render('robots.txt');
 	});
 
+	app.get('/sitemap.xml', function(req, res) {
+		res.render('sitemap.xml');
+	});
+
 	app.get('/estimate', function(req, res) {
 		res.render('estimate.html');
 	});
